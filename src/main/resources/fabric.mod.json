@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "swhitelist",
+  "version": "${version}",
+  "name": "swhitelist-fabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "cn.timelessmc.swhitelist.FabricMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
